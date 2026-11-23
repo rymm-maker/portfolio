@@ -66,8 +66,8 @@
                 <a href="#parcours" class="hover:text-white transition">Parcours</a>
             </div>
             <div class="flex items-center gap-2">
-                <!-- Bouton Télécharger CV dans la nav -->
-                <a href="CV_Rym_Meddour.pdf" target="_blank" class="hidden sm:inline-flex bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-rose-300 text-xs font-bold px-3.5 py-2 rounded-full transition items-center gap-1.5">
+                <!-- Bouton CV intégré dans la navbar sans dénaturer -->
+                <a href="CV_Rym_Meddour.pdf" target="_blank" class="hidden sm:inline-flex bento-card px-3.5 py-1.5 rounded-full text-xs font-bold text-rose-300 hover:text-white items-center gap-1.5">
                     <i class="fa-solid fa-file-arrow-down"></i> CV
                 </a>
                 <a href="#contact" class="bg-rose-800 hover:bg-rose-700 text-white text-xs font-bold px-4 py-2 rounded-full transition shadow-lg shadow-rose-950/50">
@@ -93,13 +93,13 @@
             Étudiante en <strong class="text-zinc-200">Bachelor 3 Intelligence Artificielle & Data</strong>. Je transforme les données complexes en tableaux de bord décisionnels et conçois des agents IA autonomes pour accélérer la performance des entreprises.
         </p>
 
-        <!-- Boutons d'action rapides (avec Télécharger mon CV) -->
+        <!-- Boutons d'action rapides (avec le bouton CV bento-card) -->
         <div class="flex flex-wrap justify-center gap-4">
             <a href="#contact" class="bg-gradient-to-r from-rose-800 to-rose-950 hover:from-rose-700 hover:to-rose-900 border border-rose-600/40 text-white px-7 py-3.5 rounded-2xl font-bold text-sm transition shadow-xl shadow-rose-950/40 flex items-center gap-2">
                 <i class="fa-solid fa-paper-plane"></i> Discuter d'une opportunité
             </a>
-            <!-- Bouton Télécharger mon CV -->
-            <a href="CV_Rym_Meddour.pdf" target="_blank" class="bento-card px-7 py-3.5 rounded-2xl font-semibold text-sm text-zinc-200 flex items-center gap-2 hover:text-rose-400">
+            <!-- Bouton Télécharger mon CV (Style bento-card d'origine) -->
+            <a href="CV_Rym_Meddour.pdf" target="_blank" class="bento-card px-6 py-3.5 rounded-2xl font-semibold text-sm text-zinc-200 flex items-center gap-2 hover:text-rose-400">
                 <i class="fa-solid fa-file-arrow-down text-lg text-rose-400"></i> Télécharger mon CV
             </a>
             <a href="https://github.com/rymm-maker" target="_blank" class="bento-card px-6 py-3.5 rounded-2xl font-semibold text-sm text-zinc-200 flex items-center gap-2">
@@ -143,9 +143,9 @@
                 </div>
             </div>
 
-            <!-- Qualites & Langues (Colonne droite) -->
+            <!-- Qualités & Langues (Colonne droite) -->
             <div class="md:col-span-5 flex flex-col gap-6">
-                <!-- Qualites -->
+                <!-- Qualités -->
                 <div class="bento-card p-7 rounded-3xl flex-1">
                     <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
                         <i class="fa-solid fa-sparkles text-rose-500"></i> Mes Atouts Humains
@@ -190,7 +190,7 @@
         </div>
     </section>
 
-    <!-- Competences Techniques (Stack) -->
+    <!-- Compétences Techniques (Stack) -->
     <section id="skills" class="relative z-10 py-16 max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
             <span class="text-xs font-bold uppercase tracking-widest text-rose-400">Arsenal Technique</span>
@@ -317,37 +317,4 @@
                 <div class="bento-card p-8 rounded-3xl">
                     <div class="space-y-8 border-l-2 border-rose-900/60 pl-6 ml-2">
                         <div class="relative">
-                            <span class="absolute -left-[31px] top-1 w-3.5 h-3.5 rounded-full bg-rose-500 ring-4 ring-rose-950"></span>
-                            <span class="text-xs font-bold text-rose-400 uppercase tracking-wider">En cours</span>
-                            <h3 class="font-bold text-lg text-white mt-1">Bachelor 3 Intelligence Artificielle & Data</h3>
-                            <p class="text-sm text-zinc-400">CCCLX</p>
-                        </div>
-
-                        <div class="relative">
-                            <span class="absolute -left-[31px] top-1 w-3.5 h-3.5 rounded-full bg-zinc-700 ring-4 ring-zinc-900"></span>
-                            <h3 class="font-bold text-lg text-white">Bachelor 2 IA et Data</h3>
-                            <p class="text-sm text-zinc-400">WEBITECH Paris — Parcours Informatique</p>
-                        </div>
-
-                        <div class="relative">
-                            <span class="absolute -left-[31px] top-1 w-3.5 h-3.5 rounded-full bg-zinc-700 ring-4 ring-zinc-900"></span>
-                            <h3 class="font-bold text-lg text-white">1ère année en Informatique</h3>
-                            <p class="text-sm text-zinc-400">ESTIN</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Contact Moderne -->
-    <section id="contact" class="relative z-10 py-20 max-w-5xl mx-auto px-6">
-        <div class="bento-card p-10 md:p-14 rounded-3xl text-center border-rose-900/40">
-            <span class="text-xs font-bold uppercase tracking-widest text-rose-400">Prête à relever vos défis Data & IA</span>
-            <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-2 mb-4">Contactez-moi</h2>
-            <p class="text-zinc-400 max-w-xl mx-auto text-sm md:text-base mb-10">
-                À la recherche d'une alternance en Île-de-France. Échangeons sur la manière dont je peux contribuer à vos projets !
-            </p>
-
-            <div class="grid grid
+                            <span class="absolute -left-[31px] top-1 w-3.5 h
